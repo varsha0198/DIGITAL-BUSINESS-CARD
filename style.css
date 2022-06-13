@@ -1,0 +1,110 @@
+
+:root{
+    --primary-color: #55aef6;
+    --secondry-color: #43121d;
+    --third-color: #f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --text-gray:#999;
+    --black-color:#000;
+}
+
+/* header design */
+.header {
+    height: 750px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+    text-align: center;
+    color: white;
+  }
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out ;
+    background-color: #000;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navigation-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+   
+    color: white;
+    letter-spacing: 1px;
+}
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    margin-left: 000.625rem;
+}
+
+ /*change navbar styling on scroll*/
+.navigation-wrap .scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem  0 rgb(0,0,0,0.09);
+    transition: all .15s ease-in-out 0s;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2em;
+    font-family: 700;
+}
+.main-btn{
+    display: inline;
+    padding: 0.625rem 1.87rem;
+    line-height: 1.5625rem;
+    background-color:var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all .4s ease-out 0s;
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.header-page-heading{
+    padding-top: 5em;
+    font-size: 4em;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second-heading{
+    text-align: center;
+    padding-top: 1em;
+    color: rgb(1, 1, 47);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.features-box{
+    padding-top: 4em;
+    
+}
+.features-box h3{
+    color: rgb(1, 1, 47);
+    padding: 2px;
+}
+.features-box p{
+    color: darkcyan;
+    padding: 2px;
+    line-height: 2;
+}
