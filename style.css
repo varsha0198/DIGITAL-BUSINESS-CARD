@@ -97,7 +97,8 @@
 }
 .features-box{
     padding-top: 4em;
-    
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+    border-radius: 5px;
 }
 .features-box h3{
     color: rgb(1, 1, 47);
