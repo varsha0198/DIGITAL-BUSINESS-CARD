@@ -1,12 +1,11 @@
-
-:root{
-    --primary-color: #55aef6;
-    --secondry-color: #43121d;
+:root {
+    --primary-color: rgb(1, 1, 47);
+    --secondry-color: #5d95ba;
     --third-color: #f98169;
-    --white-color:#fff;
-    --text-color:#555;
-    --text-gray:#999;
-    --black-color:#000;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
 }
 
 /* header design */
@@ -16,60 +15,66 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-   
+
     text-align: center;
     color: white;
-  }
-.navigation-wrap{
+}
+
+.navigation-wrap {
     position: fixed;
     width: 100%;
     left: 0;
     z-index: 1000;
-    transition: all 0.3s ease-out ;
+    transition: all 0.3s ease-out;
     background-color: #000;
 }
-.navigation-wrap .nav-item{
+
+.navigation-wrap .nav-item {
     padding: 0 0.625rem;
     transition: all 200ms linear;
 }
 
-.navigation-toggler:focus{
+.navigation-toggler:focus {
     outline: unset;
     border: unset;
     box-shadow: none;
 }
-.nav-link{
+
+.nav-link {
     font-size: 0.9375rem;
     font-weight: 600;
-   
+
     color: white;
     letter-spacing: 1px;
 }
-.navigation-wrap .main-btn{
+
+.navigation-wrap .main-btn {
     padding: 0.3125rem 1.4375rem;
     margin-left: 000.625rem;
 }
 
- /*change navbar styling on scroll*/
-.navigation-wrap .scroll-on{
+/*change navbar styling on scroll*/
+.navigation-wrap .scroll-on {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem  0 rgb(0,0,0,0.09);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
     transition: all .15s ease-in-out 0s;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: white;
     font-size: 2em;
     font-family: 700;
 }
-.main-btn{
+
+.main-btn {
     display: inline;
     padding: 0.625rem 1.87rem;
     line-height: 1.5625rem;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
     color: var(--white-color);
     font-size: 0.9375rem;
@@ -77,34 +82,72 @@
     border-radius: 10px;
     transition: all .4s ease-out 0s;
 }
-.main-btn:hover{
+
+.main-btn:hover {
     background-color: transparent;
     color: var(--primary-color);
 }
-.header-page-heading{
+
+.header-page-heading {
     padding-top: 5em;
     font-size: 4em;
     line-height: 1.2;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.second-heading{
+
+.second-heading {
     text-align: center;
-    padding-top: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
     color: rgb(1, 1, 47);
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
 }
-.features-box{
-    padding-top: 4em;
-    
+
+.features-box {
+    padding-top: 1em;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    box-shadow:  0 0 20px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: 1s;
+    border: 1px solid var(--secondry-color) ;
 }
-.features-box h3{
+
+.features-box h3 {
     color: rgb(1, 1, 47);
     padding: 2px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: var(--secondry-color) ;
+    border-radius: 5px;
+    padding: 7px;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.features-box p{
+
+.features-box p {
     color: darkcyan;
     padding: 2px;
     line-height: 2;
+}
+.features-md{
+    padding-top: 40px;
+}
+.second-heading strong{
+    box-shadow: 0 -0.1em 0 var(--secondry-color) inset;
+    padding: 0 .2em;
+}
+.features-box:hover{
+    transform: scale(1.2);
+    
 }
