@@ -18,6 +18,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: white;
+
 }
 
 .navigation-wrap {
@@ -75,7 +76,7 @@
     padding: 0.625rem 1.87rem;
     line-height: 1.5625rem;
     background-color: var(--primary-color);
-    border: 0.1875rem solid var(--primary-color);
+   
     color: var(--white-color);
     font-size: 0.9375rem;
     font-weight: 600;
@@ -89,21 +90,19 @@
 }
 
 .header-page-heading {
-    padding-top: 4em;
-    font-size: 4em;
+    padding-top: 5em;
+    font-size: 3em;
     line-height: 1.2;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:50px ;
+    margin-right: 30px;
+    text-align: left;
 }
-
-.header-heading {
-    font-size: 2.3em;
-    text-align: center;
-    padding-top: 4em;
-    background-color: var(--third-color);
-    height: 16rem;
-    padding: auto;
-    margin: auto;
+.main-page h6{
+   text-align: left;
+    margin-right: 30px;
+    margin-left: 50px;
 }
 
 .section-features {
@@ -145,7 +144,7 @@
 }
 
 .contact-froms {
-    padding: 28px 15px;
+    padding: 15px 5px;
 }
 
 .mb-3 {
@@ -191,28 +190,65 @@
    
 
 }
-
-.contact-heading{
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    padding: 50px;
-}
 .section-getcard{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
+   
+  
 }
-
+.border{
+  border: 1em solid #faa30e;
+}
+.givespace{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
 .getting-card {
     background-color: var(--third-color);
     height: auto;
     border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
 }
-
 .getting-card h2 {
     margin-left: 40px;
+    margin-right: 40px;
     padding: 40px;
     font-size: 50px;
     font-weight: 700;
     color: var(--white-color);
+    text-align: left;
+    line-height: 1.1em;
+}
+.blogsection{
+    background-color: rgba(244, 249, 249, 0.502);
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blogsection h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.fromblog img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+}
+.fromblog h3{
+   font-size: 20px;
+   padding-top: 10px;
+   color: var(--third-color);
+  
+}
+.fromblog h6{
+    font-size: 15px;
+    color: var(--primary-color);
 }
