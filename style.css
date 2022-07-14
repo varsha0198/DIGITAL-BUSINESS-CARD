@@ -14,18 +14,22 @@ body {
 
 /* header design */
 .section-header {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image2.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image2.jpg);
     animation-name: example;
     animation-duration: 6s;
     animation-iteration-count: infinite;
     opacity: 1;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: var(--primary-color);
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+
 }
 
-@keyframes example {
+/* @keyframes example {
     from {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image2.jpg);
     }
@@ -34,23 +38,43 @@ body {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image1.jpg);
     }
 
+} */
+.bannerimg {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
 }
 
+.bannerimg img {
+    width: 700px;
+    height: 400px;
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.buttonGradiant {
+    background-image: linear-gradient(#f75878 0%, #f7635b 38.39%, #fbb03b 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 30px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+}
 
 .header {
-    height: 750px;
     width: auto;
-
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: white;
-
 }
-
-
 
 .navigation-wrap {
     position: relative;
@@ -66,16 +90,9 @@ body {
     transition: all 200ms linear;
 }
 
-.navigation-toggler:focus {
-    outline: unset;
-    border: unset;
-    box-shadow: none;
-}
-
 .nav-link {
     font-size: 0.9375rem;
     font-weight: 600;
-
     color: var(--white-color);
     letter-spacing: 1px;
 }
@@ -86,16 +103,6 @@ body {
 }
 
 /*change navbar styling on scroll*/
-.navigation-wrap .scroll-on {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
-    transition: all .15s ease-in-out 0s;
-}
-
 .navbar-brand {
     color: var(--white-color);
     font-size: 1.5em;
@@ -177,15 +184,11 @@ body {
     background: var(--primary-color);
     color: var(--white-color);
     border-radius: 50%;
-
 }
 
 .bodycolor {
     background-color: white;
 }
-
-
-
 
 .givespace {
     padding-top: 150px;
@@ -209,7 +212,6 @@ body {
     font-size: 30px;
 }
 
-
 .getting-card h2 {
     padding-top: 20PX;
     padding-bottom: 100px;
@@ -221,11 +223,13 @@ body {
 }
 
 .blogsection {
-
     display: flex;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
+}
+.padding-bottom{
+    padding-bottom: 40px;
 }
 
 .blogsection h2 {
@@ -289,24 +293,58 @@ body {
     right: 0;
     margin-right: 400px;
 }
+
 .input-group {
     width: 90%;
     max-width: 500px;
-    
+
     background: white;
     margin: auto;
     padding: 2px;
 
-  }
-  .input-group-text {
+}
+
+.input-group-text {
     background-color: var(--primary-color);
     border: 0;
     color: white;
     box-shadow: none;
     border-radius: 2px;
     border-width: 0px 0px 0px 0px;
-  }
-  .form-control {
+}
+
+.form-control {
     border: 1px solid gray;
     box-shadow: none;
-  }
+}
+
+.footerdata ul a {
+    left: 0;
+    margin-left: 0;
+    text-decoration: none;
+    
+    color: var(--white-color);
+}
+.footerdata h4{
+    margin-left: 20px;
+}
+.footer-section p{
+    font-size: 16px;
+}
+.footeraddress ul a{
+    left: 0;
+    margin-left: 0;
+    text-decoration: none;
+   
+    color: var(--white-color);
+}
+.givepadding{
+    padding-top: 40px;
+    color: var(--white-color);
+    padding-bottom: 100px;
+    margin-left: 20px;
+    
+}
+.boxshadowcolor{
+    background-color:var(--primary-color);
+}
