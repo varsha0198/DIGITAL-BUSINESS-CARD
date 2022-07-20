@@ -5,7 +5,7 @@ body {
 
 :root {
     --primary-color: #6222CC;
-    --secondry-color: #5d95ba;
+    --secondry-color: #3379ab;
     --third-color: #faa30e;
     --white-color: #fff;
     --text-color: #555;
@@ -249,7 +249,7 @@ body {
     padding: 50px;
     font-size: 50px;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .boxshadow {
@@ -273,7 +273,7 @@ body {
 
 .fromblog h6 {
     font-size: 15px;
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .hr-lines {
@@ -336,7 +336,7 @@ body {
 }
 
 .footerdata h4 {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .footer-section {
@@ -357,6 +357,9 @@ body {
 
     color: var(--white-color);
 }
+.footeraddress h4{
+    margin-left: 40px;
+}
 
 .givepadding {
     padding-top: 40px;
@@ -372,6 +375,11 @@ body {
 
 .boxshadowcolor {
     background-color: var(--primary-color);
+
+}
+.boxshadowcolored{
+    background-color: var(--secondry-color);
+    color: var(--white-color);
 }
 
 .iconspace {
@@ -475,17 +483,29 @@ body {
   }
   .worksection button{
       padding: 10px;
+      border-radius: 4px;
+      background-color: var(--primary-color);
+      color: var(--white-color);
   }
   .workbutton{
     padding-bottom: 20px;
+    margin-left: 15px;
   }
   .col-data{
     font-size: 18px;
     
   }
-  .image img{
-    display: flex;
-    align-items: center;
+  .col-data p{
+    margin-left: 60px;
+  }
+  .image{
+   margin-left: 25%;
+  
+  }
+  .backgroundcolor{
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 20%;
   }
   .id{
     padding-bottom: 60px;
@@ -497,3 +517,10 @@ body {
     text-align: center;
     padding: 40px;
   }
+  .worksection h2{
+    margin-left: 20px;
+  }
+  .headingp{
+    margin-left: 20px;
+  }
+  
