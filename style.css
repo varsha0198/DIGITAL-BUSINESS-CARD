@@ -141,6 +141,7 @@ body {
 .main-page h6 {
     text-align: left;
     margin-left:50px ;
+    font-size: 17px;
 }
 
 .section-features {
@@ -187,13 +188,15 @@ body {
 .features-box h4 {
     font-size: larger;
     color: var(--text-color);
-    padding: 10px;
+    padding-top: 15px;
+    font-weight:700;
 }
 
 .features-box h6 {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-color);
-    padding: 30px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
+    font-weight: 600;
 }
 
 .icon-box {
@@ -288,12 +291,13 @@ body {
     font-size: 20px;
     padding-top: 10px;
     color: var(--third-color);
-
+    font-weight: 700;
 }
 
 .fromblog h6 {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--white-color);
+    font-weight: 600;
 }
 
 .hr-lines {
@@ -385,6 +389,8 @@ body {
 .iconspace {
     padding: 15px;
     text-align: center;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .icondesign {
@@ -393,6 +399,7 @@ body {
     color: var(--primary-color);
     border-radius: 30%;
     margin-right: 4px;
+    cursor: pointer;
 }
 
 .spaceicon {
@@ -456,7 +463,8 @@ body {
 
 .feedback h1 {
     text-align: center;
-    padding: 25px;
+    padding: 40px;
+    font-weight: 700;
 }
 
 .user-review {
@@ -471,9 +479,12 @@ body {
 
 .user-review p {
     padding: 30px 10px 10px 10px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .feedback img {
+    
     width: 60px;
     height: 60px;
     border-radius: 50%;
