@@ -1,6 +1,6 @@
 body {
-    background-color: #F6F4F9;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-family: "Heebo", sans-serif;
 }
 
 :root {
@@ -46,7 +46,7 @@ body {
 }
 
 .bannerimg img {
-    width: 700px;
+    width: 600px;
     height: 400px;
     padding-top: 20px;
     max-width: 100%;
@@ -70,7 +70,7 @@ body {
 
 .header {
     width: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Heebo", sans-serif;
     text-align: center;
     color: white;
 }
@@ -81,7 +81,7 @@ body {
     left: 0;
     z-index: 1000;
     transition: all 0.3s ease-out;
-    background-color: rgba(0, 0, 0, 0.036);
+
 }
 
 .navigation-wrap .nav-item {
@@ -115,11 +115,11 @@ body {
     padding: 0.625rem 1.87rem;
     line-height: 1.5625rem;
     background-color: var(--white-color);
-
+    border: none;
     color: var(--black-color);
     font-size: 0.9375rem;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all .4s ease-out 0s;
 }
 
@@ -135,23 +135,28 @@ body {
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
-    margin-right: 30px;
     text-align: left;
 }
 
 .main-page h6 {
     text-align: left;
-    margin-right: 30px;
-    margin-left: 50px;
+    margin-left:50px ;
 }
 
 .section-features {
-    padding: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
     padding-top: 100px;
     padding-bottom: 150px;
     background-color: #fff;
     align-items: center;
+    
+}
+.features{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  
 }
 
 .features-heading {
@@ -160,23 +165,24 @@ body {
     color: var(--primary-color);
     font-size: 2.5em;
     font-weight: 500;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Heebo", sans-serif;
 }
 
 .features-box {
     text-align: center;
     box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
-    margin-left: 35px;
-    margin-right: 35px;
-    max-width: 100%;
-    max-height: 100%;
     width: 350px;
     padding: 20px;
     transition: 1s;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
 }
+
+
 .features-box:hover {
     transform: scale(1.05);
-  }
+}
 
 .features-box h4 {
     font-size: larger;
@@ -187,6 +193,7 @@ body {
 .features-box h6 {
     font-size: 15px;
     color: var(--text-color);
+    padding: 30px 10px 10px 10px;
 }
 
 .icon-box {
@@ -225,18 +232,20 @@ body {
 
 .getting-card h2 {
     padding-top: 20PX;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     font-size: 50px;
     font-weight: 700;
     color: var(--white-color);
     text-align: center;
     line-height: 1.1em;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .blogsection {
     display: flex;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Heebo", sans-serif;
 
 }
 
@@ -256,12 +265,23 @@ body {
     background-color: #fff;
 }
 
+.fromblog {
+  
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .fromblog img {
     height: auto;
-    max-width: 100%;
+   max-width: 100%;
+   justify-content: center;
     border: none;
-    border-radius: 3px;
+    border-radius: 0;
     box-shadow: none;
+    display: block;
+    border: none;
+   
 }
 
 .fromblog h3 {
@@ -282,29 +302,7 @@ body {
     text-align: center;
 }
 
-.hr-lines:before {
-    content: " ";
-    height: 2px;
-    width: 100px;
-    background: red;
-    display: block;
-    position: absolute;
-    top: 80%;
-    left: 0;
-    margin-left: 300px;
-}
 
-.hr-lines:after {
-    content: " ";
-    height: 2px;
-    width: 100px;
-    background: red;
-    display: block;
-    position: absolute;
-    top: 80%;
-    right: 0;
-    margin-right: 300px;
-}
 
 .input-group {
     width: 90%;
@@ -340,14 +338,14 @@ body {
 }
 
 .footer-section {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Heebo", sans-serif;
     padding-bottom: 50px;
 }
 
 .footer-section p {
     font-size: 16px;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Heebo", sans-serif;
 }
 
 .footeraddress ul a {
@@ -357,7 +355,8 @@ body {
 
     color: var(--white-color);
 }
-.footeraddress h4{
+
+.footeraddress h4 {
     margin-left: 40px;
 }
 
@@ -377,7 +376,8 @@ body {
     background-color: var(--primary-color);
 
 }
-.boxshadowcolored{
+
+.boxshadowcolored {
     background-color: var(--secondry-color);
     color: var(--white-color);
 }
@@ -424,13 +424,15 @@ body {
     max-height: 100%;
     margin-left: 30%;
 }
-.howitworks p{
+
+.howitworks p {
     margin-top: 10px;
     text-align: center;
     font-size: 18px;
     font-family: 600;
 }
-.btn{
+
+.btn {
     text-align: center;
     padding: 8px 20px;
     border: 3px solid var(--primary-color);
@@ -439,88 +441,104 @@ body {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-.button{
-   text-align: center;
-   padding-bottom: 80px;
-  
+
+.button {
+    text-align: center;
+    padding-bottom: 80px;
+
 }
+
 .feedback {
-    padding:  0;
-  
-  }
-  .feedback h1{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback h1 {
     text-align: center;
     padding: 25px;
-  }
+}
 
-  .user-review {
+.user-review {
     text-align: center;
     box-shadow: 0 0 10px 0 black;
     padding-bottom: 40px;
     width: 350px;
     margin: 0;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-  .user-review p {
+.user-review p {
     padding: 30px 10px 10px 10px;
-  }
+}
 
-  .feedback img {
+.feedback img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     position: relative;
     margin: -30px 0 20px 40%;
 
-  }
-  .workid{
+}
+
+.workid {
     background-color: var(--primary-color);
-  }
-  .worksection{
+}
+
+.worksection {
     background-color: var(--white-color);
-  }
-  .worksection button{
-      padding: 10px;
-      border-radius: 4px;
-      background-color: var(--primary-color);
-      color: var(--white-color);
-  }
-  .workbutton{
+}
+
+.worksection button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.workbutton {
     padding-bottom: 20px;
     margin-left: 15px;
-  }
-  .col-data{
+}
+
+.col-data {
     font-size: 18px;
-    
-  }
-  .col-data p{
+
+}
+
+.col-data p {
     margin-left: 60px;
-  }
-  .image{
-   margin-left: 25%;
-  
-  }
-  .backgroundcolor{
+}
+
+.image {
+    margin-left: 25%;
+
+}
+
+.backgroundcolor {
     background-color: var(--primary-color);
     padding: 20px;
     border-radius: 20%;
-  }
-  .id{
+}
+
+.id {
     padding-bottom: 60px;
-  }
-  .col-data strong{
+}
+
+.col-data strong {
     color: var(--primary-color);
-  }
-  .header-heading{
+}
+
+.header-heading {
     text-align: center;
     padding: 40px;
-  }
-  .worksection h2{
+}
+
+.worksection h2 {
     margin-left: 20px;
-  }
-  .headingp{
+}
+
+.headingp {
     margin-left: 20px;
-  }
-  
+}
