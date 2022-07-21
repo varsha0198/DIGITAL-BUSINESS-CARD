@@ -90,7 +90,7 @@ body {
 }
 
 .nav-link {
-    font-size: 0.9375rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--white-color);
     letter-spacing: 1px;
@@ -101,12 +101,11 @@ body {
     margin-left: 000.625rem;
 }
 
-/*change navbar styling on scroll*/
+
 .navbar-brand {
     color: var(--white-color);
-    font-size: 1.5em;
+    font-size: 1.7em;
     width: auto;
-
     font-family: 700;
 }
 
@@ -129,11 +128,11 @@ body {
 }
 
 .header-page-heading {
-    padding-top: 5em;
+    padding-top: 4em;
     font-size: 3em;
     line-height: 1.2;
     font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     margin-left: 50px;
     text-align: left;
 }
@@ -147,21 +146,21 @@ body {
 .section-features {
     padding: 0;
     font-family: "Heebo", sans-serif;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #fff;
     align-items: center;
     
 }
 .features{
     justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
   
 }
 
 .features-heading {
-    padding: 1em;
+   padding-bottom:1em ;
     text-align: center;
     color: var(--primary-color);
     font-size: 2.5em;
@@ -343,7 +342,7 @@ body {
 
 .footer-section {
     font-family: "Heebo", sans-serif;
-    padding-bottom: 50px;
+   
 }
 
 .footer-section p {
@@ -398,8 +397,13 @@ body {
     padding: 10px;
     color: var(--primary-color);
     border-radius: 30%;
-    margin-right: 4px;
+    margin-right: 5px;
     cursor: pointer;
+}
+.spaceicon :hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+   
 }
 
 .spaceicon {
@@ -408,9 +412,10 @@ body {
 
 .sectionworks h2 {
     text-align: center;
-    padding: 40px;
+    padding-bottom: 20px;
     font-size: 2.5em;
     color: var(--primary-color);
+    font-weight: 700;
 }
 
 .howitworks {
@@ -456,7 +461,7 @@ body {
 }
 
 .feedback {
-    padding: 0;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -504,8 +509,10 @@ body {
 .worksection button {
     padding: 10px;
     border-radius: 4px;
-    background-color: var(--primary-color);
+    background-image: linear-gradient(#114172,#bd77f3);
+    font-size: 20px;
     color: var(--white-color);
+    border: none;
 }
 
 .workbutton {
@@ -528,7 +535,7 @@ body {
 }
 
 .backgroundcolor {
-    background-color: var(--primary-color);
+    background-image: linear-gradient(#114172,#bd77f3);
     padding: 20px;
     border-radius: 20%;
 }
@@ -542,14 +549,21 @@ body {
 }
 
 .header-heading {
+  
     text-align: center;
     padding: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Heebo", sans-serif;
 }
 
 .worksection h2 {
     margin-left: 20px;
+    font-weight: 500;
+    font-size: 2.5rem;
 }
 
 .headingp {
     margin-left: 20px;
+    font-size: 20px;
 }
